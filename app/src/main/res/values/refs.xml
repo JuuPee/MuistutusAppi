@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="ratas">@android:drawable/ic_menu_manage</drawable>
+    <drawable name="mittari">@mipmap/ic_mittari</drawable>
+</resources>

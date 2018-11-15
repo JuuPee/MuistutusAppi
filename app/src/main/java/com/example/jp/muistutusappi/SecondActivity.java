@@ -1,16 +1,18 @@
 package com.example.jp.muistutusappi;
 
+import android.app.Activity;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 
 /**
  * Created by JP on 11/15/2018.
  */
 
-public class SecondActivity extends AppCompatActivity {
+public class SecondActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_second);
     }
+
+
 }
