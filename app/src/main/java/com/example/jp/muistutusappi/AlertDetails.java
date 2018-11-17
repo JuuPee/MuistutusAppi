@@ -1,9 +1,17 @@
 package com.example.jp.muistutusappi;
 
-/**
- * Created by JP on 11/15/2018.
- */
+import android.app.Activity;
+import android.content.Intent;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 
-public class AlertDetails {
+public class AlertDetails extends Activity {
 
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_alert_details);
+
+        Intent intent = getIntent();
+    }
 }
